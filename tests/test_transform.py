@@ -1,3 +1,4 @@
+
 import pandas as pd
 
 from pipeline.transform import transform_customers
@@ -15,6 +16,6 @@ def test_transform_customers():
 
     result = transform_customers(df)
 
-    assert result.loc[0, "name"] == "WRONG"
+    assert result.loc[0, "name"] == "John Doe"
     assert result.loc[0, "email"] == "john@example.com"
 
