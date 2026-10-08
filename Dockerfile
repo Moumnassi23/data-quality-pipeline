@@ -12,3 +12,4 @@ COPY data ./data
 ENV PYTHONPATH=/app/src
 
 CMD ["python", "-c", "print('Data Quality Pipeline container started successfully')"]
+vdfs
